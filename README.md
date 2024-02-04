@@ -1,4 +1,4 @@
-# count-intersections
+# Counting Intersections
 
 ### Problem
 This python code provides two methods of a solution to counting the number of intersections of chords inside a circle, given a list of radians and corresponding endpoint identifiers.
