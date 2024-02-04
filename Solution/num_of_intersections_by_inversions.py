@@ -65,8 +65,8 @@ class Inversions:
 
 #ask user for input 
 #alternatively, can set lists manually
-radian_measures_str = input("Enter the radian measures separated by spaces: ")
-identifiers_str = input("Enter the identifiers separated by spaces: ")
+radian_measures_str = input("Enter the radian measures (separated by spaces): ")
+identifiers_str = input("Enter the identifiers (separated by spaces): ")
 #note that radian measures don't matter as they are sorted in the input
 identifiers_split = identifiers_str.split()
 n = len(identifiers_split)
