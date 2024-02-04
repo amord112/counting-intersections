@@ -11,3 +11,6 @@ The first mehod solves the question by numbering and listing the endpoints in th
 The second method iterates through the endpoints x<sub>i</sub>, i in [1,N] in the order they occur and adds them to a list. Once and endpoint x<sub>k</sub> is reached that already exists in the list, we have completed the chord k. The number of chords intersecting it is counted by the number of endpoints (incomplete chords) existing after x<sub>k</sub> in the list, and the endpoint x<sub>k</sub> is deleted from the list. This method has a big-O runtime of **O(N^2)** as a result of the .pop() method existing inside the loop. The efficiency can be improved by implementing a binary (eg AVL) tree to store, count and update the endpoints, resulting in a comparable runtime of **O(NlogN)**. 
 
 ### Usage 
+This code can be run using Python. 
+When it prompts the user for radian measures and identifiers, please make sure all entries are separated by spaces and periods are used as decimal points (eg. 0.78 1.47 1.77 3.92 , s1 s2 e1 e2). 
+Alternatively, inputs can be entered as lists inside the program. 
