@@ -14,8 +14,8 @@ def search(array, x):
 
 #ask user for input 
 #alternatively, can set lists manually
-radian_measures_str = input("Enter the radian measures separated by spaces: ")
-identifiers_str = input("Enter the identifiers separated by spaces: ")
+radian_measures_str = input("Enter the radian measures (separated by spaces): ")
+identifiers_str = input("Enter the identifiers (separated by spaces): ")
 identifiers_split = identifiers_str.split()
 identifiers = [int(i[1]) for i in identifiers_split]
 
