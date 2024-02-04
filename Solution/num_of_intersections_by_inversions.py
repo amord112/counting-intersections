@@ -88,7 +88,7 @@ for i in identifiers:
 #note that s_i and e_i can be in any order
 Inversions.reset()
 ids_sorted = sort(ids_labeled)
-total_inversions = Inversions.number
+inv_total = Inversions.number
 
 #separate the identifiers into starts and ends
 starts = [0]*(n//2)
@@ -107,9 +107,9 @@ for i in range (n):
 #count the number of inversions when sorting only ending endpoints to avoid counting intersections twice
 Inversions.reset()
 ends_sorted = sort(ends)
-ends_inversions = Inversions.number
+inv_ends = Inversions.number
 print()
-print("The total number of intersections is", total_inversions - 2*ends_inversions)
+print("The total number of intersections is", inv_total - 2*inv_ends)
 
 
 
